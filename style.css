@@ -1,0 +1,49 @@
+body {
+  width: 960px;
+  width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+  background: #f2cd7c;
+}
+
+h1 {
+  margin: 5px;
+  text-align: center;
+  color: #50aa88;
+}
+
+input[type="text"] {
+  margin: 5px;
+  text-align: center;
+  color: #50aa88;
+  font-size: 20px;
+}
+
+p {
+  margin: 5px;
+  text-align: center;
+  color: #50aa88;
+  background-color: #f2f2ee;
+}
+
+input[type="button"],
+button {
+  position: center;
+  display: inline-block;
+  max-width: 180px;
+  background-color: #db7843;
+  font-size: 16px;
+  color: #f2f2ee;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 24px;
+  border-radius: 4px;
+  border-bottom: 4px solid #db7843;
+}
+
+button:active {
+  transform: translateY(4px);
+  border-bottom: none;
+}
