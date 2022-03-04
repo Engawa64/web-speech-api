@@ -1,6 +1,20 @@
 # web-speech-api
 Created with CodeSandbox
-HTML/CSS/JavaScript/WebSpeechAPI
 
-#Author
+## Usage
+ロシア語の発音学習用
+Learn Russian pronunciation
+
+## Requirement
+* HTML5
+* CSS3
+* JavaScript
+* jQuery 3.6.0
+* sweet
+* WebSpeechAPI
+
+## Note
+
+
+## Author
 *Engawa64
