@@ -3,6 +3,7 @@ Created with CodeSandbox
 
 ## Usage
 ロシア語の発音学習用アプリ
+デフォルトでテキストボックスに"Привет"が入っています。
 
 ## Requirement
 * HTML5
