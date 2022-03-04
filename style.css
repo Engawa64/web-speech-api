@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans",
+    "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+  background: #fbfbfb;
+  font-size: 16px;
+  color: #0055b2;
+}
+
+header p {
+  color: #67a5da;
+}
+
+main {
+  min-height: 70vh;
+  margin: 10px 10vw;
+}
+main p {
+  margin: 5px;
+  text-align: center;
+  background-color: #e5eaeb;
+  border : solid 3px #e5eaeb;
+  border-radius: 10px;
+}
+.main_form {
+  display: inline-block;
+}
+#input_btn {
+  margin-bottom: 6px;
+  border-radius: 10px;
+  font-size: 100%;
+  width: 60%;
+  height: 48px;
+  background: #0055b2;
+  color:#e5eaeb;
+}
+#input_btn:hover {
+  background: #67a5da;
+  color:#fbfbfb;
+  transform: scale(1.1, 1.1);
+}
+textarea {
+  margin: 5px;
+  width: 60%;
+  height: 160px;
+  min-width: 200px;
+  text-align: left;
+  font-size: 20px;
+  color: #0055b2;
+}
+.center_box {
+  margin: 0px 20vw;
+}
+#mic {
+  min-width: 80px;
+  min-height: auto;
+}
+.btn {
+  margin-bottom: 6px;
+  border-radius: 50px;
+  font-size: 100%;
+  background-color: #b8c2c8;
+  height: 64px;
+  color: #fdfdfb;
+}
+.btn:hover {
+  background: #e5eaeb;
+  color:#0055b2;
+  transform: scale(1.1, 1.1);
+}
+.bl_btn {
+  display: inline-block;
+  margin: 10 10px;
+}
+#result_div {
+  font-size: 64px;
+  color: #d8077f;
+}
+
+footer {
+  position: relative;
+  margin-bottom: 16px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #b8c2c8;
+}
