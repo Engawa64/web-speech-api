@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <title>ロシア語の発音</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>ロシア語の発音</h1>
+      <p>ロシア語の発音を確認・テストすることができます。</p>
+    </header>
+    <hr>
+    <main>
+      <form id="main_form">
+        <textarea id="input_message" name="input_message" cols="32" row="5">Привет</textarea>
+        <br>
+        <input type="button" id="input_btn" value="▶1-1 決定" />
+      </form>
+      <!------付け加えたい機能
+      <section class="ly_radio">
+        <p>
+          読み上げ速度の設定
+          <br>
+          <input type="radio" name="speed" value="1.0" />
+          1.0min(おすすめ)
+          <input type="radio" name="speed" value="0.5" />
+          0.5min(ゆっくり)
+        </p>
+        <input type="button" value="▶︎決定" />
+      </section>
+    --->
+      <button id="speak_btn" class="btn bl_btn">▶︎1-2 読み上げ</button>
+      <button id="ex_btn" class="btn bl_btn">▶︎サイトの説明</button>
+      <p id="output_message"></p>
+      <p class="center_box"><img id="mic" src="micoff.svg" width="200px"/></p>
+      <div id="result_div"></div>
+    </main>
+    <footer>
+      <p>&copy; 2022 Engawa64</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.4/dist/sweetalert2.all.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+
+</html>
